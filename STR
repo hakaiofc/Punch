@@ -14,8 +14,12 @@ while wait() do
 local A_1 = "Left Punch"
 local Event = game:GetService("ReplicatedStorage").Remotes.Attack
 Event:FireServer(A_1)
+local Event = game:GetService("ReplicatedStorage").Remotes.Attack
+Event:FireServer(A_1)
 
 local A_1 = "Right Punch"
+local Event = game:GetService("ReplicatedStorage").Remotes.Attack
+Event:FireServer(A_1)
 local Event = game:GetService("ReplicatedStorage").Remotes.Attack
 Event:FireServer(A_1)
 end
