@@ -17,7 +17,7 @@ local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
 
-local spinSpeed = 350
+local spinSpeed = 300
 
 game:GetService("RunService").RenderStepped:Connect(function(deltaTime)
     humanoidRootPart.CFrame = humanoidRootPart.CFrame * CFrame.Angles(0, math.rad(spinSpeed * deltaTime), 0)
